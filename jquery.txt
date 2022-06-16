@@ -1,0 +1,27 @@
+IN Jquery the $ is quivalent to jQuery.
+
+$('selector').action();
+
+The above is the syntax in jquery
+
+There are three typrs of selector in jQuery
+
+1.Element selector
+2.Class selector
+3.id selector
+
+
+$(document).ready(function (){
+
+//Your jQuery Code here
+
+});
+    
+The above document.ready is used to prevent the java script from executing before the dom is loaded the another shortcut for the above is this
+
+$(function (){
+
+//Your jQuery Code here
+
+});
+
